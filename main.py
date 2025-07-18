@@ -67,7 +67,7 @@ if uploaded_files:
                 df = df[
                     (df["montant_crediter"] != 0) | (df["montant_debiter"] != 0)
                 ]
-                df['reference']= '0' + df['reference].astype(str)
+                df['reference']= '0' + df['reference'].astype(str)
                 all_data.append(df)
             except Exception as e:
                 st.error(
