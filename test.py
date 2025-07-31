@@ -3,7 +3,6 @@ import pandas as pd
 import datetime
 from io import BytesIO
 import os
-from convert import convert_fake_xls_to_xlsx
 from io import StringIO
 
 def try_read_xls(uploaded_file):
